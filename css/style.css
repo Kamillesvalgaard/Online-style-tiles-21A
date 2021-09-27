@@ -27,11 +27,12 @@ use the fonts in other ways in the font hierarchy etc. */
 
   --white-space: 1rem;
 
-  --bg-color: #000;
-  --link-color: #000;
-  --link-hover-color: #000;
-  --color-4: #000;
-  --color-5: #000;
+  --bg-color: #c4d6cb;
+  --link-color: #80b3ce;
+  --link-hover-color: #f5f3be;
+  --color-4: #437266;
+  --color-5: #e8feff;
+  --color-6: #807441;
 
   --primary-font: sans-serif;
   --secondary-font: serif;
@@ -112,8 +113,8 @@ ul {
 
 .swatches li {
   margin-right: 5vw;
-  height: 15vw;
-  width: 20%;
+  height: 10vw;
+  width: 50%;
 }
 
 ul li:last-child {
@@ -138,6 +139,10 @@ ul li:last-child {
 
 .color-swatch-5 {
   background-color: var(--color-5);
+}
+
+.color-swatch-6 {
+  background-color: var(--color-6);
 }
 
 .textures li {
