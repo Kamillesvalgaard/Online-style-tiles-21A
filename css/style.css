@@ -109,6 +109,12 @@ section {
   font-size: 1.3rem;
   color: var(--main-text-color);
   margin: 0.5rem 0;
+  margin-bottom: 2rem;
+}
+
+section {
+  border: 1px black solid;
+  padding: 2rem;
 }
 
 ul {
@@ -189,22 +195,36 @@ ul li:last-child {
 
 button {
   padding: 1rem;
-  border-radius: 4px;
-  background: var(--link-color);
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border-radius: 20px;
+  background: white;
   text-align: center;
   text-decoration: none;
-  font: bold 1.25em/1 var(--primary-font);
-  letter-spacing: 1px;
-  color: white;
+  font: 1em/1 var(--secondary-font);
+  letter-spacing: 3px;
+  color: var(--main-text-color);
   text-transform: uppercase;
-  text-shadow: 0px -1px 0px #0374a0;
-  transition: all 0.2s ease;
   cursor: pointer;
   /* margin: 0 1rem 0 0; */
+  border-color: var(--color-4);
 }
 
 .secondary-button {
-  background: var(--color-5);
+  padding: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border-radius: 20px;
+  background: white;
+  text-align: center;
+  text-decoration: none;
+  font: 1em/1 var(--secondary-font);
+  letter-spacing: 3px;
+  color: var(--link-color);
+  text-transform: uppercase;
+  cursor: pointer;
+  /* margin: 0 1rem 0 0; */
+  border-color: var(--link-color);
 }
 
 button:focus,
@@ -215,8 +235,7 @@ button:focus-within {
 }
 
 button:hover {
-  background-color: var(--link-hover-color);
-  transform: scale(3) rotate(40deg);
+  text-decoration: underline;
 }
 
 button:active {
